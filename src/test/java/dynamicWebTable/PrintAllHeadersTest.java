@@ -24,6 +24,7 @@ public class PrintAllHeadersTest
 			System.out.println(header.getText());
 		}
 		System.out.println("application will close");
+		System.out.println("application  close");
 		driver.quit();
 		}
 	}
