@@ -26,8 +26,11 @@ public class PrintAllHeadersTest
 			System.out.println(header.getText());
 		}
 		System.out.println("application will close");
+<<<<<<< HEAD
 		
 		System.out.println("application will close now");
+=======
+>>>>>>> branch 'master' of https://github.com/hcrashmi/DemoWebTable.git
 		System.out.println("application  close");
 		driver.quit();
 		}
