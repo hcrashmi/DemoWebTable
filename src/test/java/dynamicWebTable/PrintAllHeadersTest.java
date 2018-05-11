@@ -23,7 +23,7 @@ public class PrintAllHeadersTest
 		{
 			System.out.println(header.getText());
 		}
-		
+		System.out.println("application will close");
 		driver.quit();
 		}
 	}
