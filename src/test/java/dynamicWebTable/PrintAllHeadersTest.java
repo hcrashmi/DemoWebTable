@@ -16,6 +16,8 @@ public class PrintAllHeadersTest
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/driver/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("file:///C:/Users/TYSS/Desktop/webtable.html");
+		
+		System.out.println("application will open");
 			
 		List<WebElement> headers = driver.findElements(By.xpath("//table//tbody//tr"));
 		
@@ -24,6 +26,9 @@ public class PrintAllHeadersTest
 			System.out.println(header.getText());
 		}
 		System.out.println("application will close");
+		
+		System.out.println("application will close now");
+		System.out.println("application  close");
 		driver.quit();
 		}
 	}
